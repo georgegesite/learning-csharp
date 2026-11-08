@@ -44,6 +44,22 @@ namespace HelloWorld
             Console.WriteLine(result);
 
             Console.WriteLine(calculateDay(7));
+
+            // Creating a List of integers
+            List<int> mylist = new List<int>();
+
+            // adding items in mylist
+            for (int j = 5; j < 10; j++)
+            {
+                mylist.Add(j * 3);
+            }
+
+            // Displaying items of mylist
+            // by using foreach loop
+            foreach (int items in mylist)
+            {
+                Console.WriteLine(items);
+            }
         }
 
         public static string calculateDay(int day)
